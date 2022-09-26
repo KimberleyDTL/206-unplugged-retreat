@@ -103,6 +103,8 @@ footer {
   align-items: center;
 }
 
+/* Header Styles */
+
 header {
   padding: 15px 0;
 }
@@ -137,7 +139,7 @@ footer .content-wrapper {
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 100%;
+  width: 55%;
   margin: 50px 0;
 }
 
@@ -353,15 +355,73 @@ faq .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
+
+
+  /*General styles */
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+  /* Header */
+
+  header {
+    justify-content
+  }
+
+  header .content-wrapper {
+    width: 100%;
+  }
+
+  
+  header nav {
+    width: 100%;
+  }
+
+  header nav ul {
+  (justify-content)
+}
+
+.header-divider {
+  display: none;
+}
+
+/* Hero Area */
+
+/* Aside */
+
+  aside .content-wrapper {
+  display: flex;
+  justify-content:space-evenly;
+  flex-flow: wrap;
+  margin: 50px 0;
+}
+
+/* Features */
+
+  features .article {
+  (display: flex, justify-content, align-items, and flex-flow)
+}
+
+
+/* Reviews */
+
+  reviews .article {
+  (display: flex, and justify-content)
+}
+
+/* Footer */
+
+  footer-content {
+  (display: flex, justify-content, and align-items)
+}
+}
+
+@media only screen and (min-wdith: 1200px) {
+  /*Desktop styles here*/
 }
 
 /* ==========================================================================
