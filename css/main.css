@@ -144,7 +144,8 @@ figure {
 }
 
 address {
-
+  font-style: normal;
+  text-align: center;
 }
 
 .content-wrapper {
@@ -195,36 +196,43 @@ header nav ul li {
 }
 
 footer {
-  flex-direction: column;
-}
 
-footer p{
-  margin: 0;
+  /* flex-direction: column; */
 }
 
 footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  /* width: 55%;
+  margin: 50px 0; */
 }
 
-footer .contact {
-  margin-bottom: 50px;
+footer h4 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 20px;
 }
 
 footer .social-icons{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-} 
+}
 
-footer .social-icons p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer .social-icons p{
+background: #527158;
+border-radius: 50%;
+padding: 10px;
+margin: 15px;
+}
+
+footer .social-icons p i {
+  font-size: 1.125em;
 }
 
 footer .copyright {
-  margin: 20px 0;
+ font-style: normal;
 }
 
 
@@ -295,7 +303,7 @@ aside {
 
 .features article {
   margin: 30px;
-  padding: 0 50px; */
+  padding: 0 50px;
   }
 
 .features p {
@@ -554,7 +562,9 @@ faq .content-wrapper {
 /* Footer */
 
   footer-content {
-  (display: flex, justify-content, and align-items)
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 }
 
